@@ -4,8 +4,8 @@ public class Ejercicio2 {
         Scanner sc= new Scanner(System.in);
         System.out.println("Introduce el numero de horas");
         int horas= sc.nextInt();
-        int dias= horas /24;
-        int horasr = horas %24;
+        int dias= horas / 24;
+        int horas = horas % 24;
         System.out.println(horas + "El desglose es: " + dias + " dias y " + horas + " horas ");
 
     }
